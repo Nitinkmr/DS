@@ -45,7 +45,7 @@ void display(struct node *head)
     while(head->next!=NULL)
     {
 
-        printf("%d"=>,head->data);
+        printf("%d=>",head->data);
         head=head->next;
     }
 
